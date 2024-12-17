@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "SA2-assessment",
+			"path": "."
+		},
+		{
+			"name": "Wed-dev2-SA2-assessment",
+			"path": "../../Wed-dev2-SA2-assessment"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SA2-assessment"
+	}
+}

@@ -4,9 +4,11 @@ body{background-color: #fface4;
   font-family: "Tangerine", cursive;
   font-size: 50px;
   }
-header{background-color: #f5ffc6;
+header{margin-top: -0.5%;
+      background-color: #f5ffc6;
       height: 150px;
-  
+      width: 101%;
+      margin-left: -0.5%;
 }
 .logo{height: 200px;
 border-radius: 20%;}
@@ -18,6 +20,30 @@ margin-top: -150px;
 
 }
 .navlinks a{color: #eb9b13;
+}
+.navlinks .dropdown {
+  display: none; /* Hidden by default */
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.navlinks .dropdown li {
+  padding: 10px 20px;
+}
+
+.navlinks .dropdown li a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+
+.navlinks .dropdown li a:hover {
+  background-color: #f1f1f1;
 }
 .cart{margin-top: 55px;
   margin-left: 90%;
@@ -137,7 +163,7 @@ width: 200px;
 height: 200px;
 border-radius: 100px;
 box-shadow: #fffffe 5px 5px 5px 5px;
-margin-left: 500px;
+margin-left: 555px;
 background-color: #A42CD6;
 font-family: "Tangerine", cursive;
 color: #ffc96c;
@@ -168,7 +194,7 @@ width:100px;
     border-radius: 100px;
     box-shadow: #eb9b13 5px 5px 5px 5px;
     margin-top: 3%;
-    margin-left: 500px;
+    margin-left: 555px;
     background-color: #A42CD6;
     font-family: "Tangerine", cursive;
     color: #ffc96c;
@@ -200,30 +226,31 @@ width:100px;
 color: #eb9b13;
 height: 300px;
 width: 400px;
-margin-left: 450px;
+margin-left: 555px;
 text-align: center;
 padding: 20px; }
 .ideas{
-margin-left: 520px;
-margin-top: -470px;
-height: 600px;
-width: 660px;
+margin-left: 400px;
+margin-top: -33%;
+height: 900px;
+width: 850px;
 }
-.event_management{background-color: rgb(97, 6, 12);
+.event_management{background-color: #61060c;
 height: 350px;
-width:500px;
+width:550px;
 font-size: 50px;
 color:#f5ffc6;
 text-align: center;
-margin-left: 450px;
- margin-top: -10%;
+margin-left: 500px;
+ margin-top: -30%;
+ padding: 5px;
 }
-/* The flip card container */
+/* Birthday function*/
 .birthday_flip-card {
   background-color: transparent;
-  width: 350px;
-  height: 400px;
-  margin-left: 450px;
+  width: 300px;
+  height: 300px;
+  margin-left: 270px;
   margin-top: 20px;
  
 }
@@ -248,7 +275,7 @@ margin-left: 450px;
   height: 100%;
   backface-visibility: hidden;
   border-radius: 20px;
-
+ 
   
   
 }
@@ -264,5 +291,273 @@ margin-left: 450px;
   background-color:  #eb9b13;
   color: rgb(97, 6, 12);
   transform: rotateY(180deg);
-  font-size: 50px;
+  font-size:2.5rem;
+  
 }
+/* Wedding function */
+.wedding_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:575px;
+  margin-top: -300px;
+ 
+}
+
+.wedding_flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+ 
+}
+
+.wedding_flip-card:hover .wedding_flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.wedding_flip-card-front,.wedding_flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+ 
+  
+  
+}
+
+.wedding_flip-card-front {
+  background-color: rgb(97, 6, 12);
+  color: rgb(244, 239, 239);
+  font-size: 50px;
+  
+}
+
+.wedding_flip-card-back {
+  background-color:  #eb9b13;
+  color: rgb(97, 6, 12);
+  transform: rotateY(180deg);
+  font-size: 2.5rem
+}
+/* anniversary function */
+.anniversary_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:880px;
+  margin-top: -300px;
+ 
+}
+
+.anniversary_flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+ 
+}
+
+.anniversary_flip-card:hover .anniversary_flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.anniversary_flip-card-front,.anniversary_flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+ 
+  
+  
+}
+
+.anniversary_flip-card-front {
+  background-color: rgb(97, 6, 12);
+  color: rgb(244, 239, 239);
+  font-size: 50px;
+  
+}
+
+.anniversary_flip-card-back {
+  background-color:  #eb9b13;
+  color: rgb(97, 6, 12);
+  transform: rotateY(180deg);
+  font-size: 2.5rem
+}
+/*new year*/
+.Retirement_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:270px;
+  margin-top: 1%;
+  
+ 
+}
+
+.Retirement_flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+ 
+}
+
+.Retirement_flip-card:hover .Retirement_flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.Retirement_flip-card-front,.Retirement_flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+ 
+  
+  
+}
+
+.Retirement_flip-card-front {
+  background-color: rgb(97, 6, 12);
+  color: rgb(244, 239, 239);
+  font-size: 50px;
+  
+}
+
+.Retirement_flip-card-back {
+  background-color:  #eb9b13;
+  color: rgb(97, 6, 12);
+  transform: rotateY(180deg);
+  font-size: 2.5rem
+}
+/*Reunion*/
+.Reunion_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:575px;;
+  margin-top: -20%;
+  
+ 
+}
+
+.Reunion_flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+ 
+}
+
+.Reunion_flip-card:hover .Reunion_flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.Reunion_flip-card-front,.Reunion_flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+ 
+  
+  
+}
+
+.Reunion_flip-card-front {
+  background-color: rgb(97, 6, 12);
+  color: rgb(244, 239, 239);
+  font-size: 50px;
+  
+}
+
+.Reunion_flip-card-back {
+  background-color:  #eb9b13;
+  color: rgb(97, 6, 12);
+  transform: rotateY(180deg);
+  font-size: 2.5rem
+}
+/*New year*/
+.new-year_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:880px;;
+  margin-top: -20%;
+  
+ 
+}
+
+.new-year_flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+ 
+}
+
+.new-year_flip-card:hover .new-year_flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.new-year_flip-card-front,.new-year_flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+ 
+  
+  
+}
+
+.new-year_flip-card-front {
+  background-color: rgb(97, 6, 12);
+  color: rgb(244, 239, 239);
+  font-size: 50px;
+  
+}
+
+.new-year_flip-card-back {
+  background-color:  #eb9b13;
+  color: rgb(97, 6, 12);
+  transform: rotateY(180deg);
+  font-size: 2.5rem
+}
+footer{background-color: #f5ffc6;
+  height: 350px;
+  width: 101%;
+margin-top: 5%;
+margin-left: -0.5%;
+}
+ .place h3{font-size: 3rem;
+margin-left: 30%;
+margin-top: -12%;
+color: #eb9b13;
+}
+.place p{font-size: 2.5rem;
+  margin-left: 30%;
+  margin-top: -1%;
+  color: #eb9b13;
+  }
+.contact_detail h4{margin-top:-11%;
+ margin-left:60%;
+ color: #eb9b13;
+}
+ .contact_detail p{margin-top:-3%;
+  margin-left:60%;
+  color: #eb9b13;}
+

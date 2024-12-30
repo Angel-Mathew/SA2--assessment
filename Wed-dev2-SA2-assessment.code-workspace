@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Wed-dev2-SA2-assessment",
+			"path": "."
+		},
+		{
+			"name": "types_of_cakes",
+			"path": "../Sara-Mathew/SA2-assessment/types_of_cakes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Wed-dev2-SA2-assessment"
+	}
+}

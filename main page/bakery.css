@@ -13,10 +13,11 @@ header{margin-top: -0.5%;
       margin-left: -0.5%;
 }
 .logo{height: 200px;
-border-radius: 20%;}
+border-radius: 20%;
+margin-left: 1%;}
 .navlinks{  display: flex;
   list-style: none;
-margin-left: 350px;
+margin-left: 450px;
   gap: 20px;
 margin-top: -150px;
 
@@ -64,12 +65,12 @@ margin-top: -150px;
 .menu_dropdown:hover .button {
   background-color: #f5ffc6;
 }
-.cart{margin-top: 55px;
-  margin-left: 90%;
+.cart{margin-top: 50px;
+  margin-left: 86%;
 
 
 }
-.profile{margin-top: 55px;
+.profile{margin-top: 50px;
 }
 /*chocolate dripping design*/
 .chocolate_design{margin-top: 10px;
@@ -195,6 +196,7 @@ font-weight: 800;
 width:100px;
 
 }
+.sw{color:#ffc96c;}
 .sweets{font-size: 3rem;
   width: 200px;
   height: 200px;
@@ -210,6 +212,7 @@ width:100px;
   width:120px;
   
   }
+  .br{color:#ffc96c;}
   .breads{font-size: 3rem;
     width: 200px;
     height: 200px;
@@ -227,6 +230,7 @@ width:100px;
     width:120px;
     
     }
+    .sn{color:#ffc96c;}
     .snacks{font-size: 3rem;
       width: 200px;
       height: 200px;

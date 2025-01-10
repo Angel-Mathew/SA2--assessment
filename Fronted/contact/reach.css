@@ -244,4 +244,18 @@ footer{background-color: #f5ffc6;
     }
 
 }
+/*Laptop*/
+@media(min-width:1024px) and (max-width:1440px){
+  header {
+    height: 200px;
+    width: 1556px;
+  }
+  footer{background-color: #f5ffc6;
+  height: 350px;
+  width: 155%;
+  margin-top: 20%;
+  margin-left: -0.5%;
+  }
+
+}
 

@@ -237,3 +237,10 @@ h2{margin-top:10px;
   margin-left: -0.5%;
   }
 }
+/*Laptop*/
+@media(min-width:1024px) and (max-width:1440px){
+header {
+  height: 140px;
+  width: 1555px;
+  } 
+}

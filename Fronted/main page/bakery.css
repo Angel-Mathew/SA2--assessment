@@ -660,6 +660,127 @@ margin-top: -12%;
   opacity: 1;
 }
 /*media quires*/
+/*mobile*/
+@media(min-width:320px) and (max-width:480px){
+  header {
+    height: 140px;
+    width: 1500px;
+  }
+  /*chocolate dripping design*/
+.chocolate_design{margin-top: 10px;
+
+  background-color: #7a2800;
+  height: 500px;
+  width: 1477px;
+  clip-path:polygon(  0% 0%, 100% 0%, 100% 70%, 
+  90% 80%, 85% 65%, 80% 75%, 70% 60%, 
+  60% 70%, 50% 50%, 40% 70%, 
+  30% 50%, 20% 70%, 10% 60%, 
+  0% 80%);
+}
+.intro h1 {
+  
+  font-size: 3rem;
+  margin-left:200%;
+ }
+  /*cake design stickers*/
+.stickers {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: -150%;
+  margin-left: 60%;
+}
+.bread{margin-left: 40%;}
+.pizza{margin-left: 30%;}
+.right_side_stickers {
+  display: grid;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: -165%;
+  margin-left: 300%;
+}
+.hat{
+  margin-left: 20%;
+}
+
+.puff{margin-left: 20%;
+ }
+   /*menu*/
+h2 {margin-left: 195%;
+  margin-top: 15%;
+}
+.sweets{font-size: 3rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: #eb9b13 5px 5px 5px 5px;
+  margin-left: 800px;
+  margin-top: -990%;
+  background-color: #A42CD6;
+  font-family: "Tangerine", cursive;
+  color: #ffc96c;
+  
+  }
+img.bread {height: 120px;
+    width:120px;
+    margin-left:-5%;
+    }
+.snacks{font-size: 3rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: #eb9b13 5px 5px 5px 5px;
+  margin-top: 3%;
+  margin-left: 800px;
+  margin-top: -990%;
+  background-color: #A42CD6;
+  font-family: "Tangerine", cursive;
+  color: #ffc96c;
+  padding-top:1%;
+  }
+ /*stylig for customize part*/
+ .ideas{
+  margin-left: 400px;
+  margin-top: -130%;
+  height: 900px;
+  width: 850px;
+  }
+    /*event management*/
+.event_management{background-color: rgb(97, 6, 12);
+  height: 350px;
+  width:550px;
+  font-size: 50px;
+  color:#f5ffc6;
+  text-align: center;
+  margin-left: 500px;
+  margin-top: -130%;
+  padding: 5px;
+  }
+  /*Reunion*/
+.Reunion_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:575px;;
+  margin-top: -83%;
+}
+/*new year*/
+.new-year_flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-left:880px;;
+  margin-top: -83%;
+}
+footer{background-color: #f5ffc6;
+  height: 350px;
+  width: 450%;
+margin-top: 5%;
+margin-left: -0.5%;
+}
+}
 /*tablets*/
 
 @media(min-width:481px) and (max-width:768px){
@@ -1020,7 +1141,4 @@ margin-left: -0.5%;
    margin-left:60%}
   .contact_detail p{margin-top:-3%;
     margin-left:60%}
-
-
-
-}
+  }

@@ -4,9 +4,9 @@ const router = express.Router();
 
 
 router.post('/',async(req, res)=>{
-    const {name, email, password} = req.body;
+    const {name, email, password,First_name} = req.body;
     try {
-        const newUser = new User({name, email, password});
+        const newUser = new User({name, email, password,First_name});
         await newUser.save();
         res.status(201).json(newUser);
     } catch (error) {
